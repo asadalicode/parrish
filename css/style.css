@@ -151,13 +151,13 @@
   justify-content: center;
 }
 .purple-div:hover {
-  background: transparent linear-gradient(344deg, #7c1aa5 0%, #1e18b5 100%) 0%
-    0% no-repeat padding-box;
+  /* background: transparent linear-gradient(344deg, #7c1aa5 0%, #1e18b5 100%) 0%
+    0% no-repeat padding-box; */
+  background: linear-gradient(180deg, #7c1aa5 40%, #1e18b5 83.64%);
   color: #fff;
 }
 .purple-div-2:hover {
-  background: transparent linear-gradient(344deg, #7c1aa5 0%, #1e18b5 100%) 0%
-    0% no-repeat padding-box;
+  background: linear-gradient(180deg, #7c1aa5 40%, #1e18b5 83.64%);
   color: #fff;
 }
 .form-bg {
