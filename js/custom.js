@@ -14,7 +14,7 @@ $(document).ready(function () {
                 "Access-Control-Allow-Headers": "*"
             }
             let settings = {
-                "url": "http://salty-savannah-17936.herokuapp.com/api/Contact/contactUser",
+                "url": "https://salty-savannah-17936.herokuapp.com/api/Contact/contactUser",
                 "method": "POST",
                 "timeout": 0,
                 "processData": false,
