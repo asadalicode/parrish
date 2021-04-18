@@ -39,3 +39,20 @@ var myFullpage = new fullpage('#fullpage', {
 
  
 });
+
+document.onreadystatechange = function () {
+  var state = document.readyState;
+
+  document.getElementById("fullpage").style.visibility = "hidden";
+  if (state == "complete") {
+    setTimeout(function () {
+      document.getElementById("interactive");
+      document.getElementById("fullpage").style.visibility = "";
+      document.getElementById("load").style.visibility = "hidden";
+    }, 500);
+  }
+
+  
+
+  
+};
