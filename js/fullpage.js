@@ -1,7 +1,7 @@
 
 var myFullpage = new fullpage('#fullpage', {
   licenseKey: "B1D9FFF2-3CAB42B2-BC6DF7B0-59C13A34",
-  anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage','5thPage','6thPage','7thPage','8thPage','9thPage','10thPage','11thPage'],
+  anchors: ['home', 'about_us', 'capability_management', 'our_work','analytics','cloud_services','cyber_security','integrated_solutions','program_management','program_management2','contract_us'],
   menu: '#myMenu',
   sectionsColor: ['#f8f9fa', '#f8f9fa', '#f8f9fa'],
   scrollOverflow: true,

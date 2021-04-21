@@ -29,6 +29,7 @@ $(document).ready(function () {
             });
         } else {
             alert("All Fields are Required");
+            
         }
     });
 });

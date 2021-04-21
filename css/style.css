@@ -138,7 +138,7 @@
   border-radius: 36px;
   height: 250px;
   background-color: #fff;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   justify-content: center;
 }
@@ -416,4 +416,11 @@ h2 .btn {
   z-index: 9999;
   background: url("https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif")
     no-repeat center center #fff;
+}
+
+.form-control-file {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: unset;
 }
