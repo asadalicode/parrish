@@ -1,15 +1,21 @@
 
 var myFullpage = new fullpage('#fullpage', {
   licenseKey: "B1D9FFF2-3CAB42B2-BC6DF7B0-59C13A34",
-  anchors: ['home', 'about_us', 'capability_management', 'our_work','analytics','cloud_services','cyber_security','integrated_solutions','program_management','program_management2','contract_us'],
+  anchors: ['home', 'about_us', 'capability_management', 'our_work','analytics','cloud_services','cyber_security','integrated_solutions','program_management','program_management2', 'careers', 'contract_us'],
   menu: '#myMenu',
   sectionsColor: ['#f8f9fa', '#f8f9fa', '#f8f9fa'],
   scrollOverflow: true,
+  scrollingSpeed: 1000,
+  autoScrolling: true,
+  dragAndMove: true,
   fitToSection: true,
+  dropEffect: true,
+  dropEffectOptions: { speed: 2300, color: "#F82F4D", zIndex: 9999 },
   easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
   paddingTop: '120px',
     paddingBottom: '10px',
   navigation: false,
+
   // loopTop: true,
   // loopBottom: true,
   afterLoad: function (origin, destination, direction) {
